@@ -1,4 +1,4 @@
-#SE Userscripts
+# SE Userscripts
 This repo contains various userscripts I've created for use on Stack Exchange. They're all designed for tampermonkey, but other userscript managers may work. I make these either using Firefox or a Chromium-based browser
 
 ## Better Paginator
