@@ -21,12 +21,12 @@
     let pageSelector = document.createElement("input");
 
     // set the style to match the other page number elements
-    pageSelector.style.width = "32px";
-    pageSelector.style.border = "1px solid hsl(210,8%,85%)";
-    pageSelector.style.height = "25px";
-    pageSelector.style.margin = "0";
-    pageSelector.style.padding = "0 8x";
-    pageSelector.style.borderRadius = "3px";
+    pageSelector.style.csstext = 'width: 32px;'
+                               + 'border: 1px solid hsl(210, 8%, 85%);'
+                               + 'height: 25px;'
+                               + 'margin: 0;'
+                               + 'padding: 0 8px;'
+                               + 'borderRadius: 3px';
 
     // make it so when the user types in a number and presses "Enter", it will navigate to that page
     pageSelector.id = "pageSelector";
