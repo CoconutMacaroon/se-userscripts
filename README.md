@@ -1,6 +1,13 @@
 # SE Userscripts
 This repo contains various userscripts I've created for use on Stack Exchange. They're all designed for tampermonkey, but other userscript managers may work. I make these either using Firefox or a Chromium-based browser
 
+## ​[status-*] highlighting for Stack Overflow for Teams
+<kbd>[Install](https://github.com/CoconutMacaroon/se-userscripts/raw/main/stack-overflow-for-teams-status-tags/stack-overflow-for-teams-status-tags.user.js)</kbd>
+
+This userscript applies highlighting to `[status-*]` tags on Stack Overflow for Teams, as it isn't applied by default.
+
+![](https://i.stack.imgur.com/qLKDY.png)
+
 ## Better Paginator
 <kbd>[Install](https://github.com/CoconutMacaroon/se-userscripts/raw/main/better-paginator/better-paginator.user.js)</kbd>
 
