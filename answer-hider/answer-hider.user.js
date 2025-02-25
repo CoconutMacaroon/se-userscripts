@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Answer hider
 // @namespace    http://tampermonkey.net/
-// @version      1.1.1
+// @version      1.1.2
 // @description  try to take over the world!
 // @author       cocomac
 // @match        https://*.stackexchange.com/questions/*
@@ -25,7 +25,7 @@
             // note: f72479cc is an arbitrary prefix from uuidgen to avoid collisions
             $.get("https://cdn.sstatic.net/Img/stacks-icons/TrashSM.svg", (VISIBLE) => {
                 $.get("https://cdn.sstatic.net/Img/stacks-icons/PromotedSM.svg", (HIDDEN) => {
-                    $.get("https://cdn.sstatic.net/Img/stacks-icons/Save.svg", (SAVE) => {
+                    $.get("https://cdn.sstatic.net/Img/stacks-icons/Download.svg", (SAVE) => {
                         const ANSWER_SUMMARY_LEN = 64;
                         window.f72479cc_hideAnswer = (answer_id) => {
                             let search = document.getElementsByClassName("answer");
